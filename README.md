@@ -1,2 +1,2 @@
-# -Pet-care-appointment-system-
-UI Project
+# Pet-care-appointment-system
+GUI Project
