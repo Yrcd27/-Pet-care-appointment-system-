@@ -11,7 +11,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Navbar Styling */
+
 #navbar {
   background-color: #000000;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -191,25 +191,6 @@ section {
     padding: 40px 20px;
 }
 
-h2 {
-    color: #FB903A;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-}
-
-th {
-    background-color: #FB903A;
-    color: white;
-}
 
 footer {
     background-color: #333;
@@ -249,11 +230,7 @@ footer {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
   
-  .icon {
-    font-size: 3rem;
-    color: #f4a261;
-    margin-bottom: 10px;
-  }
+  
   
   h3 {
     font-size: 1.5rem;
@@ -320,17 +297,16 @@ footer {
 
 
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: #C8A2C8;
     color: #333;
   }
   
   h2 {
     text-align: center;
     font-size: 2rem;
-    color: #FF1493; 
+    color: #2D033B; 
     margin-bottom: 20px;
   }
   
@@ -354,7 +330,7 @@ body {
   }
   
   .pricing-row.header {
-    background-color: #FF1493;
+    background-color: #2D033B;
     color: white;
     font-weight: bold;
     text-transform: uppercase;
@@ -392,7 +368,7 @@ body {
   
   #contact h2 {
     font-size: 2rem;
-    color: #FF1493; 
+    color: #2D033B; 
     margin-bottom: 20px;
   }
   
@@ -416,7 +392,7 @@ body {
   }
   
   .contact-item a {
-    color: #FF1493; 
+    color: #2D033B; 
     text-decoration: none;
     font-weight: bold;
   }
@@ -427,6 +403,6 @@ body {
   
   .icon {
     font-size: 1.5rem;
-    color: #FF1493; 
+    color: #2D033B; 
   }
   
