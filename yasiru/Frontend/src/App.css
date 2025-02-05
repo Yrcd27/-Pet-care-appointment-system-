@@ -838,3 +838,165 @@ form button:hover {
 .Appointmentbox{
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
+
+/* about us page */
+/* You can place this in a separate CSS file or in a styled-components setup. */
+
+#BackgroundAboutUspage {
+  background: linear-gradient(20deg, #ff6f3c, #E82716); 
+  padding: 50px 20px;
+  height: 380px; 
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+  padding-top: 140px;
+}
+
+/* Container for each cat-image wrapper */
+.cat-image {
+  position: absolute;
+  top: 0;
+  /* You can adjust the width/height of the img below for sizing */
+}
+
+/* Left cat pinned to left side */
+.left-cat {
+  left: 0;
+  bottom: 0; /* Pins the left cat to the bottom instead of the top */
+  top: auto; /* Ensures we’re not forcing it at the top as well */
+}
+
+
+/* Right cat pinned to right side */
+.right-cat {
+  right: 0;
+}
+
+/* Style the cat images themselves */
+.cat-image img {
+  /* Adjust width/height to taste */
+  width: 180px;
+  height: auto;
+   display: block;
+  /* If you want them partially “cut off” or pinned to corners, 
+     set negative margins or top/bottom offsets as needed. */
+  margin-top: 20px; /* or 0, if you prefer */
+  width: 300px; /* Adjust the width (increase size here) */
+  height: auto; /* Keeps the aspect ratio intact */
+
+}
+
+/* Text styling in the center */
+.about-text1 {
+  max-width: 800px;
+  margin: 0 auto; /* centers text horizontally */
+  z-index: 1; /* ensure text stays above the background or cat images if needed */
+  position: relative;
+}
+
+.about-text1 h3 {
+  font-size: 2.8rem; /* Larger font size for the main text */
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* About us Page content */
+
+.about-section {
+  padding: 2rem 2rem; /* Reduced overall padding */
+  background-color: #ffffff;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px; /* Reduced top padding */
+}
+
+.about-section-title {
+  font-size: 2.5rem; /* Adjust size as needed */
+  font-weight: bold;
+  margin-bottom: 1rem; /* Reduced space below the title */
+  margin-top: -1rem; /* Elevated the title slightly */
+  color: #333;
+  position: relative;
+}
+
+.about-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem; /* Reduced gap between text and image */
+  flex-wrap: wrap; /* Makes it responsive */
+}
+
+.about-text {
+  flex: 1;
+  padding: 1rem;
+  text-align: center;
+  padding-top: 30px; /* Reduced padding for better alignment */
+}
+
+.about-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem; /* Slightly reduced gap */
+  padding-top: 30px; /* Reduced top padding */
+}
+
+.about-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.about-item h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.about-item p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.about-image {
+  flex: 1;
+  text-align: center;
+  padding-top: 30px; /* Reduced padding */
+}
+
+.main-image {
+  max-width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-text {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .main-image {
+    max-width: 90%;
+  }
+}
+
+
+
+

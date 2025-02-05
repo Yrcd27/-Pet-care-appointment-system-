@@ -1,9 +1,9 @@
 import React from 'react';
-import bandula from "C:/Users/Dell/Downloads/yasiru/Frontend/src/Images/about-1.png"; 
-import steth from "C:/Users/Dell/Downloads/yasiru/Frontend/src/Images/stethoscope.png"; 
-import vet from "C:/Users/Dell/Downloads/yasiru/Frontend/src/Images/veterinarian.png"; 
-import emergency from "C:/Users/Dell/Downloads/yasiru/Frontend/src/Images/emergency-call.png"; 
-import customersup from "C:/Users/Dell/Downloads/yasiru/Frontend/src/Images/24-7.png"; 
+import bandula from "C:/Users/Dell/Desktop/Git/-Pet-care-appointment-system-/yasiru/Frontend/src/Images/about-1.png"; 
+import steth from "C:/Users/Dell/Desktop/Git/-Pet-care-appointment-system-/yasiru/Frontend/src/Images/stethoscope.png"; 
+import vet from "C:/Users/Dell/Desktop/Git/-Pet-care-appointment-system-/yasiru/Frontend/src/Images/veterinarian.png"; 
+import emergency from "C:/Users/Dell/Desktop/Git/-Pet-care-appointment-system-/yasiru/Frontend/src/Images/emergency-call.png"; 
+import customersup from "C:/Users/Dell/Desktop/Git/-Pet-care-appointment-system-/yasiru/Frontend/src/Images/24-7.png"; 
 
 const WhyChooseUs = () => {
   const features = [

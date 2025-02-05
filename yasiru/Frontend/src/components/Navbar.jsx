@@ -1,6 +1,6 @@
 import React , { useState }  from 'react';
 import { Link, useLocation } from "react-router-dom";
-import logo from "C:/Users/Dell/Downloads/yasiru/Frontend/src/Images/2.png"; 
+import logo from "C:/Users/Dell/Desktop/Git/-Pet-care-appointment-system-/yasiru/Frontend/src/Images/2.png"; 
 
 
 const Navbar = () => {

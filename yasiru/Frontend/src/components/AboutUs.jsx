@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import catImage from "C:/Users/Dell/Downloads/yasiru/Frontend/src/Images/AboutUsCAT.png"; // Replace with your actual image path
+import catImage from "C:/Users/Dell/Desktop/Git/-Pet-care-appointment-system-/yasiru/Frontend/src/Images/AboutUsCAT.png"; // Replace with your actual image path
 
 const AboutUs = () => {
   return (

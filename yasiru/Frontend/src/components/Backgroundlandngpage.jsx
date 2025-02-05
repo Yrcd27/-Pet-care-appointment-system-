@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import dogImage from "C:/Users/Dell/Downloads/yasiru/Frontend/src/Images/Golden retriver.png"; 
+import dogImage from "C:/Users/Dell/Desktop/Git/-Pet-care-appointment-system-/yasiru/Frontend/src/Images/Golden retriver.png"; 
 
 const Backgroundlandngpage = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import contactImage1 from "C:/Users/Dell/Downloads/yasiru/Frontend/src/Images/about.png";
-import contactImage2 from "C:/Users/Dell/Downloads/yasiru/Frontend/src/Images/about-2.png";
-import contactImage3 from "C:/Users/Dell/Downloads/yasiru/Frontend/src/Images/about-3.png";
+import contactImage1 from "C:/Users/Dell/Desktop/Git/-Pet-care-appointment-system-/yasiru/Frontend/src/Images/about.png";
+import contactImage2 from "C:/Users/Dell/Desktop/Git/-Pet-care-appointment-system-/yasiru/Frontend/src/Images/about-2.png";
+import contactImage3 from "C:/Users/Dell/Desktop/Git/-Pet-care-appointment-system-/yasiru/Frontend/src/Images/about-3.png";
 
 const ContactUs = () => {
     return (

@@ -1,23 +1,24 @@
 import React from "react";
-import dogImage from "C:/Users/Dell/Downloads/yasiru/Frontend/src/Images/Golden retriver.png"; 
+import catImage from "C:/Users/Dell/Desktop/Git/-Pet-care-appointment-system-/yasiru/Frontend/src/Images/Enhanced_Cat_Image.png"; 
+import catImageRotated from "C:/Users/Dell/Desktop/Git/-Pet-care-appointment-system-/yasiru/Frontend/src/Images/Enhanced_Cat_Image_Rotated.PNG"; 
+
 
 const Backgroundaboutuspage = () => {
   return (
-    <section id = "Backgroundlandngpage">
-    <div className="banner-container">
-    <div className="banner-content">
-      <div className="text-section">
-        <h1>Caring Hands,<br/><span>Happy Paws</span></h1>
-        <p>
-        Effortless Scheduling for Exceptional Care, Just a Click Away,
-        Backed by Love and Expertise.
-        </p>
-      </div>
-      <div className="image-section">
-        <img src={dogImage} alt="Cute Dog" />
-      </div>
+    <section id = "BackgroundAboutUspage">
+    <div className="cat-image left-cat">
+        <img src={catImage} alt="Cat" />
     </div>
-  </div>
+    <div className="about-text1">
+        <h3>
+        "Whiskers and purrs bring warmth to life.
+        Let’s care for them with love and devotion."
+        </h3>
+    </div>
+    <div className="cat-image right-cat">
+        <img src={catImageRotated} alt="Cat" />
+    </div>
+ 
   </section> 
 
    
