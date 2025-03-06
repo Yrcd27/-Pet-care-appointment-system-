@@ -17,7 +17,7 @@ const AboutUs = () => {
          We understand the bond you share with your pets and strive to deliver compassionate and personalized services tailored to their needs.
         </p>
         <Link to="/AboutUspage" className="about-us-button">
-          More...
+          More
         </Link>
       </div>
       <div className="image-container">

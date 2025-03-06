@@ -39,7 +39,7 @@ const aboutuspagecontent = () => {
           <img
             src={vetimgcropped}
             alt="Dog and Cat"
-            className="main-image"
+            className="main-img"
           />
         </div>
       </div>

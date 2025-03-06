@@ -1,27 +1,4 @@
-/* General Styles */
-body {
-  margin: 0;
-  font-family: 'Arial', sans-serif;
-  background-color: #ffffff; 
-  color: #444; 
-  line-height: 1.6;
-  
-}
-
-section {
-  scroll-margin-top: 80px; /* or whatever your navbar height is */
-}
-
-
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1rem 0;
-}
-
-/* Navbar Styles */
-
+/* =================== Navigation Bar Styles ========================= */
 nav {
   background-color: #ffffff; 
   color: #000000; 
@@ -35,16 +12,13 @@ nav {
   width: 100%;         
   z-index: 9999;   
   box-shadow:
-  0 2px 4px rgba(255, 111, 60, 0.3), /* Orange shadow */
-  0 4px 8px rgba(232, 39, 22, 0.2);  /* Red shadow */
-
-  
+    0 2px 4px rgba(255, 111, 60, 0.3), 
+    0 4px 8px rgba(232, 39, 22, 0.2);  
 }
 
 nav h1 {
   font-size: 2rem;
   margin: 0;
-   
   padding: 0; 
   line-height: 1; 
 }
@@ -78,7 +52,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #000000;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: bold;
   transition: color 0.3s;
 }
@@ -87,18 +61,18 @@ nav ul li a:hover {
   color: #ff6f3c; 
 }
 
-.navbar-button{
+.navbar-button {
   border: 2px solid #ff6f3c;
   color: #ffffff;
   background: linear-gradient(20deg, #ff6f3c, #E82716); 
   padding: 10px 20px;
   border-radius: 10px;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.1rem;
   cursor: pointer;
   transition: background-color 0.3s;
-  
 }
+
 .navbar-button:hover {
   background: #ffffff;
   color: #ff6f3c;
@@ -115,10 +89,9 @@ nav ul li a:hover {
 
 .hamburger:focus {
   outline: none;
-} 
+}
 
-/* Background*/
-
+/* =================== Landing Page Background Bar Styles ========================= */
 .banner-container {
   background: linear-gradient(20deg, #ff6f3c, #E82716); 
   padding: 50px 20px;
@@ -126,7 +99,6 @@ nav ul li a:hover {
   position: relative;
   overflow: hidden;
   padding-top: 140px;
-  
 }
 
 .banner-content {
@@ -135,7 +107,6 @@ nav ul li a:hover {
   justify-content: space-between;
   max-width: 1200px; 
   margin: 0 auto; 
-  
 }
 
 .text-section {
@@ -145,23 +116,26 @@ nav ul li a:hover {
   transform: translate(30px, -40px); 
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap');
 .text-section h1 {
-  font-size: 64px;
+  font-size: 60px;
   line-height: 1.2;
-  font-weight: 500;
+  font-weight: 700;
+  font-family: 'Nunito', sans-serif;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
 .text-section h1 span {
-  font-weight: 950;
+  font-weight: 780;
   color: #ffffff;
-  font-size: 74px;
+  font-size: 100px;
+  font-family: 'Bubblegum Sans', cursive;
 }
 
 .text-section p {
   font-size: 18px;
   margin: 20px 0;
   transform: translate(5px,-20px); 
-  
 }
 
 .banner-button {
@@ -189,8 +163,7 @@ nav ul li a:hover {
   bottom: 0; 
 }
 
-/*Our services*/
-
+/* =================== Our Services Styles ========================= */
 .services-section {
   padding: 50px 20px;
   height: 600px; 
@@ -206,13 +179,11 @@ nav ul li a:hover {
   font-weight: 750;
 }
 
-
 .services-container {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  
 }
 
 .service-card {
@@ -250,11 +221,7 @@ nav ul li a:hover {
   margin-bottom: 20px;
 }
 
-
-
-
-/*WhyChooseUs*/
-
+/* =================== Why Choose Us Styles ========================= */
 .why-choose-us-container {
   display: flex;
   background-color: #ffffff;
@@ -263,7 +230,6 @@ nav ul li a:hover {
   padding: 2rem 5%;
   flex-wrap: wrap; 
 }
-
 
 .image-container-pug {
   flex: 1.2;
@@ -274,12 +240,10 @@ nav ul li a:hover {
 
 .image-container-pug img {
   width: 480px; 
-  
   height: 700px; 
   object-fit: contain; 
   margin: 0 auto; 
 }
-
 
 .content-container {
   flex: 2;
@@ -297,14 +261,12 @@ nav ul li a:hover {
   text-align: left;
 }
 
-
 .features-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0.5rem;
   width: 100%; 
 }
-
 
 .feature-item {
   display: flex;
@@ -333,16 +295,10 @@ nav ul li a:hover {
   color: #6c757d;
 }
 
-
-
-
-
-/* About Us Section */
-
+/* =================== About Us Styles ========================= */
 .about-us-section {
   display: flex;
   height: 600px; 
-  
   align-items: center;
   justify-content: space-between;
   padding: 50px 10%;
@@ -354,12 +310,10 @@ nav ul li a:hover {
   padding-left: 1rem;
 }
 
-
 .image-container img {
   width: 500px; 
   height: auto;
   border-radius: 10%; 
- 
 }
 
 .text-container {
@@ -411,8 +365,7 @@ nav ul li a:hover {
   background: #ff5722;
 }
 
-/*Contact Us*/
-
+/* =================== Contact Us Styles ========================= */
 .contact-us-section {
   display: flex;
   align-items: center;
@@ -482,7 +435,7 @@ nav ul li a:hover {
   margin-top: 0rem;
 }
 
-form input{
+form input {
   width: 100%;
   margin-bottom: 1rem;
   padding: 10px;
@@ -516,8 +469,7 @@ form button:hover {
   background: #ff5722;
 }
 
-/* Footer */
-
+/* =================== Footer Styles ========================= */
 footer {
   background-color: #2b2d42;
   color: #ffffff;
@@ -533,10 +485,7 @@ footer {
   font-size: 0.9rem;
 }
 
-
-
-/* Booking Form */
-
+/* =================== Appointment Form Styles ========================= */
 form {
   max-width: 600px;
   margin: 2rem auto;
@@ -582,266 +531,54 @@ form button:hover {
   background-color: #e65c2d;
 }
 
-/* Responsiveness */
-
-/* ------------------------------------------------------ */
-/* Add these media queries AFTER all your existing styles */
-/* ------------------------------------------------------ */
-
-/* 
-   1) Tablet breakpoint: Adjust layouts for screens 991px wide or smaller.
-   2) Mobile breakpoint: Further refine for screens 767px wide or smaller.
-   Feel free to tweak breakpoints to suit your needs.
-*/
-
-/* ======================== TABLET VIEW ======================== */
-@media (max-width: 768px) {
-  /* Container or global spacing adjustments */
-  .container {
-    width: 95%;
-    padding: 1rem;
-  }
-
-  /* Navbar adjustments */
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 70px;
-    right: 0;
-    background-color: #fff;
-    width: 100%;
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    padding: 1rem 0;
+.AppointmentForm {
+  margin-top: 150px;
 }
 
-.nav-links.active {
-    display: flex;
-}
-
-.hamburger {
-    display: block;
-}
-
-  /* Banner area */
-  .banner-container {
-    height: auto;
-    padding: 40px 20px;
-  }
-
-  /* Services section */
-  .services-section {
-    height: auto; /* let content define height on smaller screens */
-    padding: 40px 20px;
-  }
-
-  /* Why Choose Us */
-  .why-choose-us-container {
-    flex-wrap: wrap; 
-    padding: 2rem 2%;
-  }
-  .image-container-pug,
-  .content-container {
-    padding: 1rem;
-  }
-
-  /* About Us Section */
-  .about-us-section {
-    height: auto;
-    padding: 40px 5%;
-    flex-wrap: wrap;
-  }
-  .image-container {
-    padding-left: 0.5rem;
-    margin-bottom: 20px; /* add space when stacking */
-  }
-  .text-container {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin-top: 0;
-  }
-
-  /* Contact Us Section */
-  .contact-us-section {
-    flex-wrap: wrap;
-    padding: 40px 5%;
-  }
-  .image-gallery {
-    max-width: 100%;
-    margin-bottom: 20px;
-  }
-  .form-container {
-    max-width: 100%;
-    margin-bottom: 1rem;
-  }
-}
-
-/* ======================== MOBILE VIEW ======================== */
-@media (max-width: 767px) {
-  /* Navbar stacking */
-  nav {
-    flex-direction: column;
-    align-items: flex-start; /* or center, to keep alignment consistent */
-    gap: 1rem;
-  }
-  nav ul {
-    flex-direction: column;
-    margin-right: 0;
-    gap: 0.5rem;
-  }
-  nav ul li {
-    margin-left: 0;
-  }
-
-  /* Banner area */
-  .banner-content {
-    flex-direction: column;
-    text-align: center;
-  }
-  .text-section {
-    transform: none; /* remove the translate on smaller screens */
-    margin-bottom: 1rem;
-  }
-  .image-section img {
-    position: static; /* remove absolute positioning for stacking */
-    max-width: 100%;
-    margin-top: 1rem;
-  }
-
-  /* Services section */
-  .services-section {
-    padding: 20px;
-  }
-  .services-container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .service-card {
-    width: 80%; /* let them scale nicely on mobile */
-    margin: 1rem 0;
-  }
-
-  /* Why Choose Us */
-  .why-choose-us-container {
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem 5%;
-    margin-top: 0;
-  }
-  .image-container-pug,
-  .content-container {
-    flex: 1;
-    margin-top: 1rem;
-    padding: 0;
-  }
-  .image-container-pug img {
-    width: 100%;
-    height: auto;
-  }
-
-  /* About Us Section */
-  .about-us-section {
-    flex-direction: column;
-    height: auto;
-    padding: 20px 5%;
-  }
-  .image-container {
-    flex: 1;
-    text-align: center;
-    padding-left: 0;
-    margin-bottom: 1rem;
-  }
-  .image-container img {
-    width: 100%;
-    height: auto;
-    border-radius: 10%;
-  }
-  .text-container {
-    margin-top: 0;
-    padding: 0;
-    max-width: 100%;
-  }
-
-  /* Contact Us Section */
-  .contact-us-section {
-    flex-direction: column;
-    padding: 20px 5%;
-  }
-  .image-gallery {
-    max-width: 100%;
-    margin-bottom: 1rem;
-  }
-  .thumbnail-images img {
-    width: 48%;
-    height: auto;
-  }
-  .form-container {
-    max-width: 100%;
-    margin: 0;
-  }
-
-  /* Footer adjustments */
-  footer {
-    text-align: center;
-  }
-}
-
-/* Dashboard */
-.Dashboard{
-  margin-top: -60px;
-}
-
-.Dashboard-table h2
-{
+.AppointmentForm h2 {
   text-align: center;
   font-size: 2rem;
 }
 
-/* Dashboard page background */
+.Appointmentbox {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
 
+/* =================== Dashboard Styles ========================= */
+.Dashboard {
+  margin-top: -60px;
+}
+
+.Dashboard-table h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* =================== Background Of Dashboard page Styles ========================= */
 .banner-content-dashboardpage {
   display: flex;
   margin-top: -60px;
-  flex-direction: column; /* Align elements vertically */
-  justify-content: center; /* Center vertically */
-  align-items: center; /* Center horizontally */
-  text-align: center; /* Center the text */
-  height: 100%; /* Ensure it takes the full height */
-  color: #ffffff; /* Set text color to white */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  color: #ffffff;
 }
 
 .banner-content-dashboardpage h2 {
-  font-size: 3.2rem; /* Larger font size for the main text */
+  font-size: 3.2rem;
   font-weight: bold;
   margin-bottom: 1rem;
- 
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .banner-button-dashboardpage {
   margin-top: 60px;
+  font-weight: bold;
 }
 
-/* AppointmentForm */
-.AppointmentForm{
-  margin-top: 150px;
-  
-}
-
-.AppointmentForm h2
-{
-  text-align: center;
-  font-size: 2rem;
-}
-
-.Appointmentbox{
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-}
-
-/* about us page */
-/* You can place this in a separate CSS file or in a styled-components setup. */
-
+/* =================== Background Of About Us page Styles ========================= */
 #BackgroundAboutUspage {
   background: linear-gradient(20deg, #ff6f3c, #E82716); 
   padding: 50px 20px;
@@ -852,50 +589,37 @@ form button:hover {
   padding-top: 140px;
 }
 
-/* Container for each cat-image wrapper */
 .cat-image {
   position: absolute;
   top: 0;
-  /* You can adjust the width/height of the img below for sizing */
 }
 
-/* Left cat pinned to left side */
 .left-cat {
   left: 0;
-  bottom: 0; /* Pins the left cat to the bottom instead of the top */
-  top: auto; /* Ensures we’re not forcing it at the top as well */
+  bottom: 0; 
+  top: auto; 
 }
 
-
-/* Right cat pinned to right side */
 .right-cat {
   right: 0;
 }
 
-/* Style the cat images themselves */
 .cat-image img {
-  /* Adjust width/height to taste */
-  width: 180px;
-  height: auto;
-   display: block;
-  /* If you want them partially “cut off” or pinned to corners, 
-     set negative margins or top/bottom offsets as needed. */
-  margin-top: 20px; /* or 0, if you prefer */
-  width: 300px; /* Adjust the width (increase size here) */
-  height: auto; /* Keeps the aspect ratio intact */
-
+  width: 300px;
+  height: auto; 
+  display: block;
+  margin-top: 20px; 
 }
 
-/* Text styling in the center */
 .about-text1 {
   max-width: 800px;
-  margin: 0 auto; /* centers text horizontally */
-  z-index: 1; /* ensure text stays above the background or cat images if needed */
+  margin: 0 auto; 
+  z-index: 1; 
   position: relative;
 }
 
 .about-text1 h3 {
-  font-size: 2.8rem; /* Larger font size for the main text */
+  font-size: 2.8rem; 
   font-weight: bold;
   margin-bottom: 1rem;
   color: #ffffff;
@@ -903,22 +627,21 @@ form button:hover {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* About us Page content */
-
+/* =================== Content Of About Us page Styles ========================= */
 .about-section {
-  padding: 2rem 2rem; /* Reduced overall padding */
+  padding: 2rem 2rem; 
   background-color: #ffffff;
   text-align: center;
   justify-content: center;
   align-items: center;
-  padding-top: 60px; /* Reduced top padding */
+  padding-top: 60px; 
 }
 
 .about-section-title {
-  font-size: 2.5rem; /* Adjust size as needed */
+  font-size: 2.5rem; 
   font-weight: bold;
-  margin-bottom: 1rem; /* Reduced space below the title */
-  margin-top: -1rem; /* Elevated the title slightly */
+  margin-bottom: 1rem; 
+  margin-top: -1rem; 
   color: #333;
   position: relative;
 }
@@ -929,22 +652,22 @@ form button:hover {
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
-  gap: 2rem; /* Reduced gap between text and image */
-  flex-wrap: wrap; /* Makes it responsive */
+  gap: 2rem; 
+  flex-wrap: wrap; 
 }
 
 .about-text {
   flex: 1;
   padding: 1rem;
   text-align: center;
-  padding-top: 30px; /* Reduced padding for better alignment */
+  padding-top: 30px; 
 }
 
 .about-details {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem; /* Slightly reduced gap */
-  padding-top: 30px; /* Reduced top padding */
+  gap: 1.2rem; 
+  padding-top: 30px; 
 }
 
 .about-item {
@@ -970,33 +693,435 @@ form button:hover {
 .about-image {
   flex: 1;
   text-align: center;
-  padding-top: 30px; /* Reduced padding */
+  padding-top: 30px; 
 }
 
-.main-image {
+.main-img {
   max-width: 500px;
   height: 500px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
+/* =================== Update appointment form Styles ========================= */
+.editapp_container {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: center;
+}
+
+.editapp_form {
+  max-width: 600px;
+  width: 100%;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.editapp_title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #ff6f3c;
+}
+
+.editapp_label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.editapp_input {
+  width: 95%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.editapp_input:focus {
+  border-color: #ff6f3c;
+  box-shadow: 0 0 5px rgba(255, 111, 60, 0.5);
+  outline: none;
+}
+
+.editapp_button {
+  width: 95%;
+  padding: 0.8rem;
+  background-color: #ff6f3c;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.editapp_button:hover {
+  background-color: #e65c2d;
+}
+
+/* ====================================================== */
+/* ================== RESPONSIVE STYLES ================= */
+/* ====================================================== */
+
+/* ========== For Tablets (up to 991px) ========== */
+@media (max-width: 991px) {
+  /* Navigation */
+  nav {
+    padding: 2rem;
+  }
+  nav h1 {
+    font-size: 1.8rem;
+  }
+  .navbar-brand {
+    margin-left: 1rem;
+  }
+  nav ul {
+    margin-right: 1rem;
+  }
+  nav ul li {
+    margin-left: 1rem;
+  }
+
+  /* Banner - dog on top, text below */
+  .banner-container {
+    height: auto;
+  }
+  .banner-content {
+    flex-direction: column-reverse; /* Ensures dog image appears above text */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .text-section {
+    transform: none;
+    max-width: 100%;
+    margin-top: 1rem;
+    order: 2;
+  }
+  .text-section h1 {
+    font-size: 3rem;
+  }
+  .text-section h1 span {
+    font-size: 4rem;
+  }
+  .image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* <<---  ADDED THESE LINES TO LIFT DOG IMAGE UP  ---> */
+  .image-section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;  /* Adjust as needed */
+    margin-right: 70px;
+    position: relative; /* So negative margin actually lifts it */
+  }
+
+  /* Services */
+  .services-section {
+    height: auto;
+  }
+  .services-container {
+    gap: 15px;
+  }
+  .service-card {
+    width: calc(50% - 10px);
+  }
+
+  /* Why Choose Us */
+  .why-choose-us-container {
+    flex-wrap: wrap;
+    padding: 2rem 2rem;
+  }
+  .image-container-pug img {
+    width: 100%;
+    height: auto;
+  }
+  .content-container {
+    margin-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* About Us */
+  .about-us-section {
+    height: auto;
+    flex-wrap: wrap;
+    padding: 50px 2rem;
+    text-align: center;
+  }
+  .image-container img {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .text-container {
+    margin-top: 0;
+    padding: 0;
+    max-width: 100%;
+  }
+  .text-container h1 {
+    font-size: 2rem;
+  }
+  .text-container h1 span {
+    font-size: 2.2rem;
+  }
+
+  /* Contact Us */
+  .contact-us-section {
+    flex-wrap: wrap;
+    padding: 50px 2rem;
+  }
+  .image-gallery {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+  .form-container {
+    max-width: 100%;
+  }
+  .thumbnail-images img {
+    height: 100px;
+  }
+
+  /* About Page (Background) */
+  #BackgroundAboutUspage {
+    height: auto;
+    padding-top: 100px;
+  }
+  .cat-image img {
+    width: 180px;
+  }
+
+  /* About Page (Content) */
   .about-content {
     flex-direction: column;
     align-items: center;
   }
-
-  .about-text {
-    text-align: center;
-    padding: 1rem;
+  .about-image {
+    margin-bottom: 2rem;
+  }
+  .main-img {
+    max-width: 100%;
+    height: auto;
   }
 
-  .main-image {
-    max-width: 90%;
+  /* Dashboard page */
+  .banner-content-dashboardpage h2 {
+    font-size: 2.5rem;
   }
 }
 
+/* ========== For Mobile (up to 767px) ========== */
+@media (max-width: 767px) {
+  /* Navigation: display hamburger, stack links */
+  .hamburger {
+    display: block;
+    padding-right: 3rem;
+  }
+  nav ul {
+    display: none; /* Typically toggled via JS on .hamburger click */
+    flex-direction: column;
+    background-color: #ffffff;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  nav ul li {
+    margin: 1rem 0;
+  }
+  nav ul li a {
+    font-size: 1rem;
+  }
+  .navbar-brand {
+    margin-left: 0;
+  }
 
+  /* Banner - dog on top, text below */
+  .banner-content {
+    flex-direction: column-reverse; /* Dog first, text second */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .image-section {
+    order: 1;
+    position: static;
+    margin-bottom: 1rem;
+  }
+  .text-section {
+    order: 2;
+    transform: none;
+    margin-top: 1rem;
+    max-width: 90%;
+  }
+  .text-section h1 {
+    font-size: 2rem;
+  }
+  .text-section h1 span {
+    font-size: 3rem;
+  }
 
+  /* Services: single column */
+  .services-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .service-card {
+    width: 80%;
+    margin: 0 auto;
+  }
 
+  /* Why Choose Us */
+  .why-choose-us-container {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+  .content-container {
+    padding: 0;
+    margin-top: 1rem;
+  }
+
+  /* About Us */
+  .about-us-section {
+    flex-direction: column;
+    padding: 50px 1rem;
+    align-items: center;
+    text-align: center;
+  }
+  .image-container img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .text-container {
+    padding: 0;
+  }
+
+  /* Contact Us: stack images and form */
+  .contact-us-section {
+    flex-direction: column;
+    padding: 50px 1rem;
+  }
+  .image-gallery {
+    max-width: 100%;
+  }
+  .thumbnail-images {
+    flex-direction: column;
+  }
+  .thumbnail-images img {
+    width: 100%;
+    height: 150px;
+  }
+  .form-container {
+    max-width: 100%;
+  }
+
+  /* About Page */
+  #BackgroundAboutUspage {
+    height: auto;
+    padding-top: 100px;
+  }
+  .cat-image img {
+    width: 150px;
+  }
+  .about-text1 h3 {
+    font-size: 2rem;
+  }
+  .about-section {
+    padding-top: 20px;
+  }
+  .about-content {
+    flex-direction: column;
+  }
+  .about-text {
+    margin-bottom: 2rem;
+  }
+  .main-img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* General heading resizing */
+  .services-heading,
+  .section-title,
+  .about-section-title,
+  .text-container h1,
+  .content-container h2,
+  .form-container h2 {
+    font-size: 1.8rem;
+  }
+
+  /* Appointment Form, Dashboard, etc. */
+  form {
+    max-width: 90%;
+    margin: 1rem auto;
+  }
+  .AppointmentForm {
+    margin-top: 100px;
+  }
+  .Dashboard {
+    margin-top: 0;
+  }
+}
+
+/* ========== For Very Small Screens (up to 480px) ========== */
+@media (max-width: 480px) {
+  nav h1 {
+    font-size: 1.5rem;
+  }
+  .text-section h1 {
+    font-size: 1.8rem;
+  }
+  .text-section h1 span {
+    font-size: 2.5rem;
+  }
+  .banner-button,
+  .navbar-button,
+  .about-us-button {
+    font-size: 0.9rem;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .service-card {
+    width: 90%;
+  }
+  .service-title {
+    font-size: 1.2rem;
+  }
+  .image-container-pug img {
+    width: 100%;
+  }
+  .why-choose-us-container {
+    padding: 1rem;
+  }
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+  .text-container h1 {
+    font-size: 2rem;
+  }
+  .text-container h1 span {
+    font-size: 2.4rem;
+  }
+  footer {
+    padding: 20px 10px;
+  }
+  form h1 {
+    font-size: 1.6rem;
+  }
+  .thumbnail-images img {
+    height: 120px;
+  }
+}

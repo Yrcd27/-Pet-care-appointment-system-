@@ -8,7 +8,7 @@ const Backgroundlandngpage = () => {
     <div className="banner-container">
     <div className="banner-content">
       <div className="text-section">
-        <h1>Caring Hands,<br/><span>Happy Paws</span></h1>
+        <h1>caring hands,<br/><span>Happy Paws</span></h1>
         <p>
         Effortless Scheduling for Exceptional Care, Just a Click Away,
         Backed by Love and Expertise.

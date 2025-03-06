@@ -1,0 +1,16 @@
+Layout using GRID
+
+	there are ROWS and COLUMNS
+
+	* We can define no. of rows and columns and their dimensions
+		*Dimensions can be either Manually typed, Auto keyword or * keyword
+			* if we set * in Height = "*" in all columns, they will divide the rows/columns in grid equally
+			* if add a coefficient to * like 4* the ratio will be 1:4:1:1.....
+			
+			* Or give manually Height = "100px" etc.
+
+			* Or give "auto" by Height = "auto"
+	* we can add Stack Panels inside Grid components
+
+	*Add-Migration initial
+	*Update-Database
