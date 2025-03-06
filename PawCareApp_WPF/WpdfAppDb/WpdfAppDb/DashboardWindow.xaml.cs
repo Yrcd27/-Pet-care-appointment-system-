@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+
 namespace WpdfAppDb
 {
     /// <summary>
@@ -194,5 +195,40 @@ namespace WpdfAppDb
             }
 
         }
+
+        private void ComboBox_Loaded(object sender, RoutedEventArgs e)
+        {
+            ComboBox comboBox = sender as ComboBox;
+
+            // Get the current DataGridRow
+            DataGridRow row = FindAncestor<DataGridRow>(comboBox);
+
+            // Determine if it's the last (newest) row
+            int rowIndex = ServicesGrid.ItemContainerGenerator.IndexFromContainer(row);
+            if (rowIndex == ServicesGrid.Items.Count - 1)
+            {
+                // Latest row: Ongoing
+                comboBox.SelectedIndex = 0;
+            }
+            else
+            {
+                // Previous rows: Finished
+                comboBox.SelectedIndex = 1;
+            }
+        }
+
+        // Helper method to find the parent DataGridRow
+        public static T FindAncestor<T>(DependencyObject dependencyObject) where T : DependencyObject
+        {
+            DependencyObject parent = VisualTreeHelper.GetParent(dependencyObject);
+
+            while (parent != null && !(parent is T))
+            {
+                parent = VisualTreeHelper.GetParent(parent);
+            }
+
+            return parent as T;
+        }
+
     }
 }
