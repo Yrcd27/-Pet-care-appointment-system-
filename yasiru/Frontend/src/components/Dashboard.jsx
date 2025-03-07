@@ -27,11 +27,8 @@ function Dashboard() {
       month: "short",
       day: "numeric",
     });
-    const formattedTime = dateObj.toLocaleTimeString("en-US", {
-      hour: "2-digit",
-      minute: "2-digit",
-    });
-    return { formattedDate, formattedTime };
+    
+    return { formattedDate };
   };
 
   const handleDelete = async (id) => {
@@ -80,7 +77,7 @@ function Dashboard() {
           </thead>
           <tbody>
             {appointments.map((appt) => {
-              const { formattedDate, formattedTime } = formatDateTime(appt.appointment_date);
+              const { formattedDate } = formatDateTime(appt.appointment_date);
               return (
                 <tr key={appt.id}>
                   <td>{appt.id}</td>
@@ -88,7 +85,7 @@ function Dashboard() {
                   <td>{appt.NIC_Number}</td>
                   <td>{appt.service}</td>
                   <td>{formattedDate}</td>
-                  <td>{formattedTime}</td>
+                  <td>{appt.appointment_time}</td>
                   <td style={{ justifyContent: "center", gap: "10px" }}>
                     <button
                       onClick={() => handleEdit(appt.id)}

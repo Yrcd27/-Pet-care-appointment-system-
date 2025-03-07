@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from 'react-router-dom';
 import catImage from "C:/Users/Dell/Desktop/Git/-Pet-care-appointment-system-/yasiru/Frontend/src/Images/AboutUsCAT.png"; // Replace with your actual image path
 
 const AboutUs = () => {
@@ -12,13 +11,8 @@ const AboutUs = () => {
           <span>As you care</span>
         </h1>
         <p>
-        Our mission is to provide the highest level of care for your beloved pets,
-         ensuring their happiness and well-being. 
-         We understand the bond you share with your pets and strive to deliver compassionate and personalized services tailored to their needs.
+        At PawCare, our <b>mission</b> is to provide the highest level of care for your beloved pets, ensuring their happiness and well-being. We are dedicated to delivering compassionate and personalized services tailored to their needs. Our <b>vision</b> is to become the most trusted and loved pet care provider, recognized for our commitment to excellence, integrity, and enhancing the lives of pets and their owners. We value <b>compassion, trust, innovation, and a passion for animal welfare, striving to build lasting relationships with pet owners through honesty and exceptional service</b>. 🐾❤️
         </p>
-        <Link to="/AboutUspage" className="about-us-button">
-          More
-        </Link>
       </div>
       <div className="image-container">
         <img src={catImage} alt="Cute Cat" />

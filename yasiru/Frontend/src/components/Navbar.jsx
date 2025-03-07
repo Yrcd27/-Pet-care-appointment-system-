@@ -21,7 +21,7 @@ const Navbar = () => {
                 <div className="navbar-logo">
                     <img src={logo} alt="Paw Care Logo"/>
                 </div>
-                <h1>Paw Care</h1>
+                <h1>PawCare</h1>
             </div>
             <button className="hamburger" onClick={toggleMenu}>
                 ☰

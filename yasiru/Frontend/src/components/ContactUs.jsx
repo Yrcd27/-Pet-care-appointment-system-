@@ -5,7 +5,7 @@ import contactImage3 from "C:/Users/Dell/Desktop/Git/-Pet-care-appointment-syste
 
 const ContactUs = () => {
     return (
-        <section id = "ContactUs">
+      <section id = "ContactUs">
       <div className="contact-us-section">
         <div className="image-gallery">
           <div className="main-image">

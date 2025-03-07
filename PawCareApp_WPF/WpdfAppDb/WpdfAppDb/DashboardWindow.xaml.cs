@@ -21,9 +21,20 @@ namespace WpdfAppDb
     public partial class DashboardWindow : Window
     {
         private ServicesDbContext _db = new ServicesDbContext();
+        
+        // Keep track of newly added service IDs during this run
+        private HashSet<int> _newServiceIds = new HashSet<int>();
+
         public DashboardWindow()
         {
             InitializeComponent();
+            // Optionally load data when the window opens
+            this.Loaded += DashboardWindow_Loaded;
+        }
+
+        private void DashboardWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            LoadData();
         }
 
         private void LoadData()
@@ -33,20 +44,17 @@ namespace WpdfAppDb
 
         private void Add_Vaccination(object sender, RoutedEventArgs e)
         {
-            // Check if there is a selected row in the DataGrid
             if (ServicesGrid.SelectedItem is Services selectedService)
             {
-                // Update the existing Product
+                // Update existing record
                 selectedService.Name = "Vaccination";
                 selectedService.Price = 4000;
                 selectedService.Resource_person = "Dr. Nuwan (Veterinarian)";
-
-                // Since 'selectedProduct' is already tracked, just save changes
                 _db.SaveChanges();
             }
             else
             {
-                // Otherwise, create a new Product
+                // Create new record
                 var newService = new Services
                 {
                     Name = "Vaccination",
@@ -55,29 +63,27 @@ namespace WpdfAppDb
                 };
                 _db.Products.Add(newService);
                 _db.SaveChanges();
+
+                // The newService.Id is assigned after SaveChanges
+                _newServiceIds.Add(newService.Id);
             }
 
-            // Refresh the DataGrid to reflect changes
             LoadData();
         }
 
-
         private void Add_Pet_Grooming(object sender, RoutedEventArgs e)
         {
-            // Check if there is a selected row in the DataGrid
             if (ServicesGrid.SelectedItem is Services selectedService)
             {
-                // Update the existing Product
+                // Update existing record
                 selectedService.Name = "Pet Grooming";
                 selectedService.Price = 1500;
                 selectedService.Resource_person = "Sarah (Certified Pet Groomer)";
-
-                // Since 'selectedProduct' is already tracked, just save changes
                 _db.SaveChanges();
             }
             else
             {
-                // Otherwise, create a new Product
+                // Create new record
                 var newService = new Services
                 {
                     Name = "Pet Grooming",
@@ -86,29 +92,27 @@ namespace WpdfAppDb
                 };
                 _db.Products.Add(newService);
                 _db.SaveChanges();
+
+                // Track newly added ID
+                _newServiceIds.Add(newService.Id);
             }
 
-            // Refresh the DataGrid to reflect changes
             LoadData();
         }
 
-
         private void Add_Health_Checkup(object sender, RoutedEventArgs e)
         {
-            // Check if there is a selected row in the DataGrid
             if (ServicesGrid.SelectedItem is Services selectedService)
             {
-                // Update the existing Product
+                // Update existing record
                 selectedService.Name = "Health Checkup";
                 selectedService.Price = 5000;
                 selectedService.Resource_person = "Dr. Priya (Veterinary Surgeon)";
-
-                // Since 'selectedProduct' is already tracked, just save changes
                 _db.SaveChanges();
             }
             else
             {
-                // Otherwise, create a new Product
+                // Create new record
                 var newService = new Services
                 {
                     Name = "Health Checkup",
@@ -117,29 +121,27 @@ namespace WpdfAppDb
                 };
                 _db.Products.Add(newService);
                 _db.SaveChanges();
+
+                // Track newly added ID
+                _newServiceIds.Add(newService.Id);
             }
 
-            // Refresh the DataGrid to reflect changes
             LoadData();
         }
 
-
         private void Add_Pet_Training(object sender, RoutedEventArgs e)
         {
-            // Check if there is a selected row in the DataGrid
             if (ServicesGrid.SelectedItem is Services selectedService)
             {
-                // Update the existing Product
+                // Update existing record
                 selectedService.Name = "Pet Training";
                 selectedService.Price = 3000;
                 selectedService.Resource_person = "Ramesh (Professional Pet Trainer)";
-
-                // Since 'selectedProduct' is already tracked, just save changes
                 _db.SaveChanges();
             }
             else
             {
-                // Otherwise, create a new Product
+                // Create new record
                 var newService = new Services
                 {
                     Name = "Pet Training",
@@ -148,28 +150,27 @@ namespace WpdfAppDb
                 };
                 _db.Products.Add(newService);
                 _db.SaveChanges();
+
+                // Track newly added ID
+                _newServiceIds.Add(newService.Id);
             }
 
-            // Refresh the DataGrid to reflect changes
             LoadData();
         }
 
         private void Add_Pet_Boarding(object sender, RoutedEventArgs e)
         {
-            // Check if there is a selected row in the DataGrid
             if (ServicesGrid.SelectedItem is Services selectedService)
             {
-                // Update the existing Product
+                // Update existing record
                 selectedService.Name = "Pet Boarding";
                 selectedService.Price = 2500;
                 selectedService.Resource_person = "Anjali (Pet Care Specialist)";
-
-                // Since 'selectedProduct' is already tracked, just save changes
                 _db.SaveChanges();
             }
             else
             {
-                // Otherwise, create a new Product
+                // Create new record
                 var newService = new Services
                 {
                     Name = "Pet Boarding",
@@ -178,12 +179,13 @@ namespace WpdfAppDb
                 };
                 _db.Products.Add(newService);
                 _db.SaveChanges();
+
+                // Track newly added ID
+                _newServiceIds.Add(newService.Id);
             }
 
-            // Refresh the DataGrid to reflect changes
             LoadData();
         }
-
 
         private void Delete_Service(object sender, RoutedEventArgs e)
         {
@@ -193,31 +195,31 @@ namespace WpdfAppDb
                 _db.SaveChanges();
                 LoadData();
             }
-
         }
 
         private void ComboBox_Loaded(object sender, RoutedEventArgs e)
         {
             ComboBox comboBox = sender as ComboBox;
 
-            // Get the current DataGridRow
+           
             DataGridRow row = FindAncestor<DataGridRow>(comboBox);
 
-            // Determine if it's the last (newest) row
-            int rowIndex = ServicesGrid.ItemContainerGenerator.IndexFromContainer(row);
-            if (rowIndex == ServicesGrid.Items.Count - 1)
+           
+            if (row?.Item is Services currentService)
             {
-                // Latest row: Ongoing
-                comboBox.SelectedIndex = 0;
-            }
-            else
-            {
-                // Previous rows: Finished
-                comboBox.SelectedIndex = 1;
+                
+                if (_newServiceIds.Contains(currentService.Id))
+                {
+                    comboBox.SelectedIndex = 0; // Ongoing
+                }
+                else
+                {
+                    comboBox.SelectedIndex = 1; // Finished
+                }
             }
         }
 
-        // Helper method to find the parent DataGridRow
+       
         public static T FindAncestor<T>(DependencyObject dependencyObject) where T : DependencyObject
         {
             DependencyObject parent = VisualTreeHelper.GetParent(dependencyObject);
@@ -229,6 +231,5 @@ namespace WpdfAppDb
 
             return parent as T;
         }
-
     }
 }
