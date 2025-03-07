@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\Git\\-Pet-care-appointment-system-\\PawCareApp_WPF\\WpdfAppDb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64A4BD2D-70B3-4CB1-BF76-715D94B33A98}|WpdfAppDb\\WpdfAppDb.csproj|c:\\users\\dell\\desktop\\git\\-pet-care-appointment-system-\\pawcareapp_wpf\\wpdfappdb\\wpdfappdb\\dashboardwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64A4BD2D-70B3-4CB1-BF76-715D94B33A98}|WpdfAppDb\\WpdfAppDb.csproj|solutionrelative:wpdfappdb\\dashboardwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{64A4BD2D-70B3-4CB1-BF76-715D94B33A98}|WpdfAppDb\\WpdfAppDb.csproj|c:\\users\\dell\\desktop\\git\\-pet-care-appointment-system-\\pawcareapp_wpf\\wpdfappdb\\wpdfappdb\\dashboardwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{64A4BD2D-70B3-4CB1-BF76-715D94B33A98}|WpdfAppDb\\WpdfAppDb.csproj|solutionrelative:wpdfappdb\\dashboardwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64A4BD2D-70B3-4CB1-BF76-715D94B33A98}|WpdfAppDb\\WpdfAppDb.csproj|c:\\users\\dell\\desktop\\git\\-pet-care-appointment-system-\\pawcareapp_wpf\\wpdfappdb\\wpdfappdb\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64A4BD2D-70B3-4CB1-BF76-715D94B33A98}|WpdfAppDb\\WpdfAppDb.csproj|solutionrelative:wpdfappdb\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{64A4BD2D-70B3-4CB1-BF76-715D94B33A98}|WpdfAppDb\\WpdfAppDb.csproj|c:\\users\\dell\\desktop\\git\\-pet-care-appointment-system-\\pawcareapp_wpf\\wpdfappdb\\wpdfappdb\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{64A4BD2D-70B3-4CB1-BF76-715D94B33A98}|WpdfAppDb\\WpdfAppDb.csproj|solutionrelative:wpdfappdb\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64A4BD2D-70B3-4CB1-BF76-715D94B33A98}|WpdfAppDb\\WpdfAppDb.csproj|c:\\users\\dell\\desktop\\git\\-pet-care-appointment-system-\\pawcareapp_wpf\\wpdfappdb\\wpdfappdb\\dashboardwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64A4BD2D-70B3-4CB1-BF76-715D94B33A98}|WpdfAppDb\\WpdfAppDb.csproj|solutionrelative:wpdfappdb\\dashboardwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64A4BD2D-70B3-4CB1-BF76-715D94B33A98}|WpdfAppDb\\WpdfAppDb.csproj|c:\\users\\dell\\desktop\\git\\-pet-care-appointment-system-\\pawcareapp_wpf\\wpdfappdb\\wpdfappdb\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64A4BD2D-70B3-4CB1-BF76-715D94B33A98}|WpdfAppDb\\WpdfAppDb.csproj|solutionrelative:wpdfappdb\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64A4BD2D-70B3-4CB1-BF76-715D94B33A98}|WpdfAppDb\\WpdfAppDb.csproj|c:\\users\\dell\\desktop\\git\\-pet-care-appointment-system-\\pawcareapp_wpf\\wpdfappdb\\wpdfappdb\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -73,20 +73,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "DashboardWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Git\\-Pet-care-appointment-system-\\PawCareApp_WPF\\WpdfAppDb\\WpdfAppDb\\DashboardWindow.xaml.cs",
               "RelativeDocumentMoniker": "WpdfAppDb\\DashboardWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\Git\\-Pet-care-appointment-system-\\PawCareApp_WPF\\WpdfAppDb\\WpdfAppDb\\DashboardWindow.xaml.cs",
               "RelativeToolTip": "WpdfAppDb\\DashboardWindow.xaml.cs",
-              "ViewState": "AgIAANEAAAAAAAAAAAAswN0AAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAANgAAAAAAAAAAAAkwOoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T13:21:05.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T13:21:05.143Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "DashboardWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Git\\-Pet-care-appointment-system-\\PawCareApp_WPF\\WpdfAppDb\\WpdfAppDb\\DashboardWindow.xaml",
               "RelativeDocumentMoniker": "WpdfAppDb\\DashboardWindow.xaml",
@@ -134,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Git\\-Pet-care-appointment-system-\\PawCareApp_WPF\\WpdfAppDb\\WpdfAppDb\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WpdfAppDb\\MainWindow.xaml",
@@ -146,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Services.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Git\\-Pet-care-appointment-system-\\PawCareApp_WPF\\WpdfAppDb\\WpdfAppDb\\Services.cs",
               "RelativeDocumentMoniker": "WpdfAppDb\\Services.cs",
@@ -154,8 +153,7 @@
               "RelativeToolTip": "WpdfAppDb\\Services.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T03:53:51.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-02T03:53:51.955Z"
             }
           ]
         }

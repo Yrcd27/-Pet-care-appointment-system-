@@ -24,9 +24,10 @@ const Navbar = () => {
                 <h1>PawCare</h1>
             </div>
             <button className="hamburger" onClick={toggleMenu}>
-                ☰
+                {isMenuOpen ? "✖" : "☰"}  {/* Change icon based on menu state */}
             </button>
             <ul className={`nav-links ${isMenuOpen ? "active" : ""}`}>
+
 
                 <li> {isHomePage ? (
                         // Same-page navigation when on the home page

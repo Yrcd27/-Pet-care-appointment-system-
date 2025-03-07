@@ -31,8 +31,19 @@
                 FontSize="20" 
                 Padding="5"
                 HorizontalAlignment="Center"
-                FontWeight="Bold"
-                       ></TextBlock>
+                FontWeight="Bold">
+                <TextBlock.ToolTip>
+                    <StackPanel>
+                        <TextBlock Text="Add a New Service" FontWeight="Bold" />
+                        <TextBlock Text="Choose a service to add from the list." />
+                        <TextBlock Text="Click a button to add that service." />
+                        <TextBlock Text="Update a existing Service" FontWeight="Bold" />
+                        <TextBlock Text="Select the row that you want to update" />
+                        <TextBlock Text="Click the button that contain updated service" />
+                    </StackPanel>
+                </TextBlock.ToolTip>
+            </TextBlock>
+           
             <Button FontSize="20"
                 VerticalAlignment="Center"
                 Padding="8"
@@ -79,8 +90,15 @@
                 FontSize="18" 
                 Padding="8,15,8,5"
                 HorizontalAlignment="Center"
-                FontWeight="Bold"
-            ></TextBlock>
+                FontWeight="Bold">
+                <TextBlock.ToolTip>
+                    <StackPanel>
+                        <TextBlock Text="Delete a Service" FontWeight="Bold" />
+                        <TextBlock Text="Select the row that you want to delete" />
+                        <TextBlock Text="Click a button to Delete that service." />
+                    </StackPanel>
+                </TextBlock.ToolTip>
+            </TextBlock>
             <Button FontSize="20"
                 Padding="8,8,8,10"
                 Margin="5"
