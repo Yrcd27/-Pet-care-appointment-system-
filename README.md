@@ -23,11 +23,11 @@ PawCare is designed to streamline the process of managing pet care services and 
 - 🛠️ **Services Management** system for staff
 - 📈 **Service Tracking** with status updates (Ongoing/Finished)
 - 📋 **Service Categories** including:
-  - 💉 Vaccination
-  - 🧼 Pet Grooming
-  - 🩺 Health Checkup
-  - 🏋️ Pet Training
-  - 🏠 Pet Boarding
+  - Vaccination
+  - Pet Grooming
+  - Health Checkup
+  - Pet Training
+  - Pet Boarding
 - 💰 **Price Management** for different services
 - 👨‍⚕️ **Resource Person Allocation** for each service
 
@@ -35,48 +35,48 @@ PawCare is designed to streamline the process of managing pet care services and 
 
 ### 🌐 Web Application
 - **Frontend**:
-  - ⚛️ React.js (v19.0.0)
-  - 🧭 React Router DOM (v7.1.1)
-  - 📡 Axios for API requests
-  - 🎨 CSS for styling
+  - React.js (v19.0.0)
+  - React Router DOM (v7.1.1)
+  - Axios for API requests
+  - CSS for styling
 
 - **Backend**:
-  - 🚂 Express.js
-  - 🗃️ MySQL database
-  - 🔄 CORS middleware for cross-origin requests
+  - Express.js
+  - MySQL database
+  - CORS middleware for cross-origin requests
 
 ### 💻 Desktop Application
 - **Frontend & Backend**:
-  - 🔷 C# with WPF (Windows Presentation Foundation)
-  - 📦 .NET 8.0
-  - 🗄️ Entity Framework Core (v9.0.2)
-  - 🔶 SQLite database
+  - C# with WPF (Windows Presentation Foundation)
+  - .NET 8.0
+  - Entity Framework Core (v9.0.2)
+  - SQLite database
 
 ## 📊 Database Structure
 
 ### 🌐 Web Application Database (MySQL)
 - **appointments** table:
-  - 🔑 id (Primary Key)
-  - 👤 owner_name
-  - 🆔 NIC_Number
-  - 🛎️ service
-  - 📅 appointment_date
-  - 🕒 appointment_time
+  - id (Primary Key)
+  - owner_name
+  - NIC_Number
+  - service
+  - appointment_date
+  - appointment_time
 
 ### 💻 Desktop Application Database (SQLite)
 - **Products** table (for services):
-  - 🔑 Id (Primary Key)
-  - 📝 Name (service name)
-  - 💲 Price
-  - 👨‍⚕️ Resource_person
+  - Id (Primary Key)
+  - Name (service name)
+  - Price
+  - Resource_person
 
 ## 🚀 Getting Started
 
 ### 📋 Prerequisites
-- 📦 Node.js and npm
-- 🔷 .NET 8.0 SDK
-- 🖥️ Visual Studio (for desktop app)
-- 🗃️ XAMPP or MySQL server (for web app backend)
+- Node.js and npm
+- .NET 8.0 SDK
+- Visual Studio (for desktop app)
+- XAMPP or MySQL server (for web app backend)
 
 ### 🌐 Web Application Setup
 
