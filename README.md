@@ -12,24 +12,24 @@ PawCare is designed to streamline the process of managing pet care services and 
 ## ✨ Features
 
 ### 🌐 Web Application Features
-- 🎨 **User-friendly Interface** with intuitive navigation
-- 📆 **Appointment Scheduling** for various pet care services
-- 📊 **Appointment Dashboard** to view all scheduled appointments
-- ⚙️ **CRUD Operations** for appointments (Create, Read, Update, Delete)
-- 📱 **Responsive Design** for desktop and mobile devices
-- 📝 **About Us** section with information about the pet care facility
+- **User-friendly Interface** with intuitive navigation
+- **Appointment Scheduling** for various pet care services
+- **Appointment Dashboard** to view all scheduled appointments
+- **CRUD Operations** for appointments (Create, Read, Update, Delete)
+- **Responsive Design** for desktop and mobile devices
+- **About Us** section with information about the pet care facility
 
 ### 💻 Desktop Application Features
-- 🛠️ **Services Management** system for staff
-- 📈 **Service Tracking** with status updates (Ongoing/Finished)
-- 📋 **Service Categories** including:
+- **Services Management** system for staff
+- **Service Tracking** with status updates (Ongoing/Finished)
+- **Service Categories** including:
   - Vaccination
   - Pet Grooming
   - Health Checkup
   - Pet Training
   - Pet Boarding
-- 💰 **Price Management** for different services
-- 👨‍⚕️ **Resource Person Allocation** for each service
+- **Price Management** for different services
+- **Resource Person Allocation** for each service
 
 ## 🔧 Tech Stack
 
@@ -125,18 +125,18 @@ PawCare is designed to streamline the process of managing pet care services and 
 ## 📱 Application Flow
 
 ### 🌐 Web Application Flow
-1. 🏠 User navigates to the home page
-2. 👁️ User can view services or make an appointment
-3. 📝 User fills out the appointment form (owner name, NIC number, service, date, time)
-4. 📊 User can view or manage their appointments on the dashboard page
-5. 👨‍💼 Admin can view all appointments, edit, or delete them
+1. User navigates to the home page
+2. User can view services or make an appointment
+3. User fills out the appointment form (owner name, NIC number, service, date, time)
+4. User can view or manage their appointments on the dashboard page
+5. Admin can view all appointments, edit, or delete them
 
 ### 💻 Desktop Application Flow
-1. 🔐 Staff logs into the desktop application
-2. 📋 Staff can view all services on the dashboard
-3. ➕ Staff can add new services or update existing ones
-4. 🔄 Staff can mark service status as "Ongoing" or "Finished"
-5. 🗑️ Staff can delete services when no longer needed
+1. Staff logs into the desktop application
+2. Staff can view all services on the dashboard
+3. Staff can add new services or update existing ones
+4. Staff can mark service status as "Ongoing" or "Finished"
+5. Staff can delete services when no longer needed
 
 ## 📷 Screenshots
 
