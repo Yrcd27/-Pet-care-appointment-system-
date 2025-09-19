@@ -1,4 +1,4 @@
-﻿# 🐾 PawCare - Pet Care Appointment System
+﻿# 🐾 PawCare - Appointments System & Service Tracker for a Pet Care
 
 PawCare is a comprehensive pet care appointment management solution that includes both a web application and a desktop application. This system allows pet owners to schedule appointments for various pet care services and enables staff to manage services efficiently.
 
