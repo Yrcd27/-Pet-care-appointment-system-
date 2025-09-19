@@ -138,19 +138,6 @@ PawCare is designed to streamline the process of managing pet care services and 
 4. Staff can mark service status as "Ongoing" or "Finished"
 5. Staff can delete services when no longer needed
 
-## 📷 Screenshots
-
-<details>
-<summary>📸 Click to see application screenshots</summary>
-
-### 🌐 Web Application
-*The web application includes intuitive interfaces for appointment booking and management.*
-
-### 💻 Desktop Application
-*The desktop application provides service management capabilities for staff.*
-
-</details>
-
 ## 👥 Contributors
 
 - [Yrcd27](https://github.com/Yrcd27) - Project Owner 👨‍💻
